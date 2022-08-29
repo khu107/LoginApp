@@ -11,7 +11,7 @@ const mongoose = require("mongoose");
 
 mongoose.connect(config.mongoURI,{
 
-}).then(()=>console.log("mongo ulandi"))
+}).then(()=>console.log("mongo ulandi!"))
   .catch(err=>console.log(err))
 
 
